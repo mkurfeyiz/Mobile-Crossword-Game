@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9B8B8B8"
+    tools:context=".thirdlevelactivities.EndOf33Activity">
+
+    <TextView
+        android:id="@+id/textViewCongrats33"
+        android:layout_width="239dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Tebrikler !"
+        android:textColor="#AD000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTopScoreHolder33"
+        android:layout_width="371dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Bölümün Skoreri :"
+        android:textColor="#AA000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTopScoreMessage33" />
+
+    <Button
+        android:id="@+id/buttonToNext33"
+        android:layout_width="157dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
+        android:onClick="startNextLvl"
+        android:text="Sonraki Seviye"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTopScoreHolder33" />
+
+    <TextView
+        android:id="@+id/textViewMessage33"
+        android:layout_width="291dp"
+        android:layout_height="128dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3.3. Seviyeyi Tamamladınız !"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCongrats33" />
+
+    <TextView
+        android:id="@+id/textViewTopScoreMessage33"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan :"
+        android:textAlignment="center"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameMessage33" />
+
+    <TextView
+        android:id="@+id/textViewNameMessage33"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Oyuncu Adı :"
+        android:textAlignment="center"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewScoreMessage33" />
+
+    <TextView
+        android:id="@+id/textViewScoreMessage33"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Seviye Puanı : "
+        android:textAlignment="center"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMessage33" />
+</androidx.constraintlayout.widget.ConstraintLayout>

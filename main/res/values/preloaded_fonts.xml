@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_bold</item>
+        <item>@font/atma_light</item>
+        <item>@font/atma_medium</item>
+        <item>@font/cherry_cream_soda</item>
+    </array>
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9AE3CC03"
+    tools:context=".thirdlevelactivities.ScorePage3Activity">
+
+    <TextView
+        android:id="@+id/textViewEnd"
+        android:layout_width="303dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3. Seviye Skor Sayfası"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_medium"
+        android:onClick="restart"
+        android:text="Tekrar Oyna"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPlayerName4"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlayerName4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerName4" />
+
+    <TextView
+        android:id="@+id/textViewScoreTitle"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Alt Seviye İstatistikleri"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewEnd"
+        app:layout_constraintStart_toStartOf="@+id/textViewEnd"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEnd" />
+
+    <TextView
+        android:id="@+id/textViewLastScore33"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3.3. : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewLastScore32"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastScore32" />
+
+    <TextView
+        android:id="@+id/textViewLastScore34"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3.4. : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewLastScore33"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastScore33" />
+
+    <TextView
+        android:id="@+id/textViewLastScore31"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3.1. : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewScoreTitle" />
+
+    <TextView
+        android:id="@+id/textViewLastScore35"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3.5. : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewLastScore34"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastScore34" />
+
+    <TextView
+        android:id="@+id/textViewLastScore32"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3.2. : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewLastScore31"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastScore31" />
+
+    <TextView
+        android:id="@+id/textViewLastTopScore32"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewLastTopScore31"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastTopScore31" />
+
+    <TextView
+        android:id="@+id/textViewLastTopScore36"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewLastTopScore35"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastTopScore35" />
+
+    <TextView
+        android:id="@+id/textViewLastTopScore35"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewLastTopScore34"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastTopScore34" />
+
+    <TextView
+        android:id="@+id/textViewLastTopScore33"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewLastTopScore32"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastTopScore32" />
+
+    <TextView
+        android:id="@+id/textViewLastTopScore34"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewLastTopScore33"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastTopScore33" />
+
+    <TextView
+        android:id="@+id/textViewLastTopScore31"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewLastScore31"
+        app:layout_constraintTop_toBottomOf="@+id/textViewScoreTitle" />
+
+    <TextView
+        android:id="@+id/textViewLastScore36"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3.6. : -"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewLastScore35"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLastScore35" />
+
+    <TextView
+        android:id="@+id/textViewPlayerName4"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Oyuncu Adı : -"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#019ADF"
+    tools:context=".secondlevelactivities.SecondLevel5Activity">
+
+    <Button
+        android:id="@+id/buttonSearch25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_medium"
+        android:onClick="search"
+        android:text="Ara"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editTextAnswerEntry25"
+        app:layout_constraintStart_toStartOf="@+id/editTextAnswerEntry25"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAnswerEntry25" />
+
+    <EditText
+        android:id="@+id/editTextAnswerEntry25"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Bulmacada aranan kelime"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#CD0B0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLetterE25" />
+
+    <TextView
+        android:id="@+id/textViewTitle25"
+        android:layout_width="223dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/atma_medium"
+        android:text="Bulmacadaki Harfler"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25A3" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHelp25"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="24dp"
+        android:onClick="help"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle25"
+        app:srcCompat="@android:drawable/ic_menu_directions" />
+
+    <TextView
+        android:id="@+id/textViewLetterA25"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterE25"
+        app:layout_constraintTop_toTopOf="@+id/textViewLetterE25" />
+
+    <TextView
+        android:id="@+id/textViewLetterZ25"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Z"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterA25"
+        app:layout_constraintTop_toTopOf="@+id/textViewLetterA25" />
+
+    <TextView
+        android:id="@+id/textViewLetterE25"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="E"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterC25"
+        app:layout_constraintTop_toTopOf="@+id/textViewLetterC25" />
+
+    <TextView
+        android:id="@+id/textViewLetterC25"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonHelp25"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonHelp25" />
+
+    <TextView
+        android:id="@+id/textViewTime25"
+        android:layout_width="153dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:text="Geçen Süre : 0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25C2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView25E"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25C3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView25A3"
+        app:layout_constraintTop_toTopOf="@+id/textView25A3" />
+
+    <TextView
+        android:id="@+id/textView25A3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView25Z3"
+        app:layout_constraintTop_toBottomOf="@+id/textView25Z2" />
+
+    <TextView
+        android:id="@+id/textView25Z2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/textView25E2"
+        app:layout_constraintTop_toBottomOf="@+id/textView25E2" />
+
+    <TextView
+        android:id="@+id/textView25E"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="120dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25E2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/textView25C2"
+        app:layout_constraintTop_toBottomOf="@+id/textView25C2" />
+
+    <TextView
+        android:id="@+id/textView25Z3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView25A2"
+        app:layout_constraintTop_toTopOf="@+id/textView25A3" />
+
+    <TextView
+        android:id="@+id/textView25A"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="70dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25E" />
+
+    <TextView
+        android:id="@+id/textView25A2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView25Z"
+        app:layout_constraintTop_toBottomOf="@+id/textView25Z" />
+
+    <TextView
+        android:id="@+id/textView25Z"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView25E"
+        app:layout_constraintTop_toBottomOf="@+id/textView25E" />
+
+    <TextView
+        android:id="@+id/textView25C"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView25Z"
+        app:layout_constraintTop_toBottomOf="@+id/textView25E" />
+
+    <TextView
+        android:id="@+id/textViewScore25"
+        android:layout_width="93dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:text="Puan : 0"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5AE5B5B"
+    tools:context=".firstlevelactivities.EndOfFirstLvlActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textViewTopScoreHolder16"
+        android:layout_width="371dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Bölmün Skoreri :"
+        android:textColor="#AA000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTopScoreMessage16" />
+
+    <TextView
+        android:id="@+id/textViewNameMessage16"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Oyuncu Adı :"
+        android:textAlignment="center"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewScoreMessage16" />
+
+    <Button
+        android:id="@+id/buttonToScorePage"
+        android:layout_width="203dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="startSecondLevel"
+        android:text="1. seviye Skor Sayfası"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTopScoreMessage16"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="En Yüksek Puan :"
+        android:textAlignment="center"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNameMessage16"
+        app:layout_constraintStart_toStartOf="@+id/textViewNameMessage16"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameMessage16" />
+
+    <TextView
+        android:id="@+id/textViewScoreMessage16"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Seviye Puanı : "
+        android:textAlignment="center"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewMessage1"
+        app:layout_constraintStart_toStartOf="@+id/textViewMessage1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMessage1" />
+
+    <TextView
+        android:id="@+id/textViewCongrats1"
+        android:layout_width="239dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Tebrikler !"
+        android:textColor="#AD000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMessage1"
+        android:layout_width="291dp"
+        android:layout_height="128dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="1.6. Seviyeyi Tamamladınız !"
+        android:textColor="#AA000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCongrats1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

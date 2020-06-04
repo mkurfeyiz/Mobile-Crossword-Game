@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/textViewHeadline"
+        android:layout_width="227dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Oyunun Başlamasına"
+        android:textAlignment="center"
+        android:textColor="#DB342C35"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textViewNameEntry"
+        android:layout_width="227dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="Oyuncu Adınız"
+        android:textAlignment="center"
+        android:textColor="#DB342C35"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textViewCountdown"
+        android:layout_width="86dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="3"
+        android:textAlignment="center"
+        android:textColor="#DB342C35"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHeadline"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/textViewHeadline"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeadline" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="293dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="KELİME OYUNU"
+        android:textAlignment="center"
+        android:textColor="#DB342C35"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <Button
+        android:id="@+id/buttonBegin"
+        android:layout_width="128dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/atma_medium"
+        android:onClick="begin"
+        android:text="Oyuna Başla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewCountdown"
+        app:layout_constraintStart_toStartOf="@+id/textViewCountdown"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCountdown"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="232dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="96dp"
+        android:ems="10"
+        android:hint="Oyuncu Adı"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBegin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

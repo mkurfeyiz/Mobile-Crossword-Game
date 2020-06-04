@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5AE5B5B"
+    tools:context=".firstlevelactivities.FirstLevel3Activity">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:onClick="help"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle13"
+        app:srcCompat="@android:drawable/ic_menu_directions" />
+
+    <TextView
+        android:id="@+id/textViewTitle13"
+        android:layout_width="223dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="@font/atma_medium"
+        android:text="Bulmacadaki Harfler"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewScore13"
+        android:layout_width="93dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:text="Puan : 0"
+        android:textAlignment="textStart"
+        android:textColor="#C9131313"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13H"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="108dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13A"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/textView13H"
+        app:layout_constraintTop_toBottomOf="@+id/textView13H" />
+
+    <TextView
+        android:id="@+id/textView13U"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/textView13K"
+        app:layout_constraintTop_toTopOf="@+id/textView13K" />
+
+    <TextView
+        android:id="@+id/textView13K"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/textView13A"
+        app:layout_constraintTop_toBottomOf="@+id/textView13A" />
+
+    <TextView
+        android:id="@+id/textView13R"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/textView13U"
+        app:layout_constraintTop_toTopOf="@+id/textView13U" />
+
+    <TextView
+        android:id="@+id/textView13K2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13A2"
+        app:layout_constraintEnd_toEndOf="@+id/textView13A2" />
+
+    <TextView
+        android:id="@+id/textView13A2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13R"
+        app:layout_constraintEnd_toEndOf="@+id/textView13R" />
+
+    <TextView
+        android:id="@+id/textViewTime13"
+        android:layout_width="153dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/atma_medium"
+        android:text="Geçen Süre : 0"
+        android:textAlignment="center"
+        android:textColor="#C9131313"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextAnswerEntry13"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Bulmacada aranan kelime"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#CD0B0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLetterR13" />
+
+    <TextView
+        android:id="@+id/textViewLetterA13"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="A"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="@+id/imageButton5" />
+
+    <TextView
+        android:id="@+id/textViewLetterK13"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="K"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterA13"
+        app:layout_constraintTop_toTopOf="@+id/textViewLetterA13" />
+
+    <TextView
+        android:id="@+id/textViewLetterR13"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="R"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterK13"
+        app:layout_constraintTop_toTopOf="@+id/textViewLetterK13" />
+
+    <TextView
+        android:id="@+id/textViewLetterH13"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="H"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterR13"
+        app:layout_constraintTop_toTopOf="@+id/textViewLetterR13" />
+
+    <TextView
+        android:id="@+id/textViewLetterU13"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/atma_medium"
+        android:gravity="center"
+        android:text="U"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterH13"
+        app:layout_constraintTop_toTopOf="@+id/textViewLetterH13" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/atma_medium"
+        android:onClick="search"
+        android:text="Ara"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editTextAnswerEntry13"
+        app:layout_constraintStart_toStartOf="@+id/editTextAnswerEntry13"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAnswerEntry13" />
+</androidx.constraintlayout.widget.ConstraintLayout>

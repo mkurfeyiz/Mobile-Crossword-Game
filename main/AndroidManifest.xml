@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mkurfeyiz.kelimeoyunu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".thirdlevelactivities.ScorePage3Activity"></activity>
+        <activity android:name=".secondlevelactivities.ScorePage2Activity" />
+        <activity android:name=".thirdlevelactivities.EndOf36Activity" />
+        <activity android:name=".thirdlevelactivities.EndOf35Activity" />
+        <activity android:name=".thirdlevelactivities.EndOf34Activity" />
+        <activity android:name=".thirdlevelactivities.EndOf33Activity" />
+        <activity android:name=".thirdlevelactivities.EndOf32Activity" />
+        <activity android:name=".secondlevelactivities.EndOf26Activity" />
+        <activity android:name=".secondlevelactivities.EndOf25Activity" />
+        <activity android:name=".secondlevelactivities.EndOf24Activity" />
+        <activity android:name=".secondlevelactivities.EndOf23Activity" />
+        <activity android:name=".secondlevelactivities.EndOf22Activity" />
+        <activity android:name=".firstlevelactivities.EndOf5Activity" />
+        <activity android:name=".firstlevelactivities.EndOf4Activity" />
+        <activity android:name=".firstlevelactivities.EndOf3Activity" />
+        <activity android:name=".firstlevelactivities.EndOf2Activity" />
+        <activity android:name=".firstlevelactivities.EndOf6Activity" />
+        <activity android:name=".thirdlevelactivities.ThirdLevel6Activity" />
+        <activity android:name=".thirdlevelactivities.ThirdLevel5Activity" />
+        <activity android:name=".thirdlevelactivities.ThirdLevel4Activity" />
+        <activity android:name=".thirdlevelactivities.ThirdLevel3Activity" />
+        <activity android:name=".thirdlevelactivities.ThirdLevel2Activity" />
+        <activity android:name=".secondlevelactivities.SecondLevel6Activity" />
+        <activity android:name=".secondlevelactivities.SecondLevel5Activity" />
+        <activity android:name=".secondlevelactivities.SecondLevel4Activity" />
+        <activity android:name=".secondlevelactivities.SecondLevel3Activity" />
+        <activity android:name=".secondlevelactivities.SecondLevel2Activity" />
+        <activity android:name=".firstlevelactivities.FirstLevel6Activity" />
+        <activity android:name=".firstlevelactivities.FirstLevel5Activity" />
+        <activity android:name=".firstlevelactivities.FirstLevel4Activity" />
+        <activity android:name=".firstlevelactivities.FirstLevel3Activity" />
+        <activity android:name=".firstlevelactivities.FirstLevel2Activity" />
+        <activity android:name=".thirdlevelactivities.EndOfThirdLvlActivity" />
+        <activity android:name=".thirdlevelactivities.ThirdLevelActivity" />
+        <activity android:name=".secondlevelactivities.EndOfSecondLvlActivity" />
+        <activity android:name=".secondlevelactivities.SecondLevelActivity" />
+        <activity android:name=".firstlevelactivities.EndOfFirstLvlActivity" />
+        <activity android:name=".firstlevelactivities.ScorePageActivity" />
+        <activity android:name=".firstlevelactivities.FirstLevel1Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
